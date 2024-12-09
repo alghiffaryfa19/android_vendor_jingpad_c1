@@ -1,0 +1,8 @@
+on post-fs
+    insmod /mnt/vendor/socko/goodix_fp.ko
+
+on post-fs-data
+#add for goodix_fp fingerprint
+    chmod 660 /dev/goodix_fp
+    chown system system /dev/goodix_fp
+

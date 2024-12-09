@@ -1,0 +1,1 @@
+Unisoc: ud710_3h10u_native_user_native
