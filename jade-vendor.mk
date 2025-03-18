@@ -22,12 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/lib/libstagefright_codecbase.so:system/lib/libstagefright_codecbase.so \
     vendor/jingpad/jade/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
     vendor/jingpad/jade/proprietary/lib64/libstagefright_codecbase.so:system/lib64/libstagefright_codecbase.so \
-    vendor/jingpad/jade/proprietary/priv-app/ims/ims.apk:system/priv-app/ims/ims.apk \
-    vendor/jingpad/jade/proprietary/vendor/app/CameraIPControl/CameraIPControl.apk:$(TARGET_COPY_OUT_VENDOR)/app/CameraIPControl/CameraIPControl.apk \
-    vendor/jingpad/jade/proprietary/vendor/app/LogManager/LogManager.apk:$(TARGET_COPY_OUT_VENDOR)/app/LogManager/LogManager.apk \
-    vendor/jingpad/jade/proprietary/vendor/app/ModemNotifier/ModemNotifier.apk:$(TARGET_COPY_OUT_VENDOR)/app/ModemNotifier/ModemNotifier.apk \
-    vendor/jingpad/jade/proprietary/vendor/app/ProxyNFwLocation/ProxyNFwLocation.apk:$(TARGET_COPY_OUT_VENDOR)/app/ProxyNFwLocation/ProxyNFwLocation.apk \
-    vendor/jingpad/jade/proprietary/vendor/app/SoterService/SoterService.apk:$(TARGET_COPY_OUT_VENDOR)/app/SoterService/SoterService.apk \
     vendor/jingpad/jade/proprietary/vendor/bin/bc:$(TARGET_COPY_OUT_VENDOR)/bin/bc \
     vendor/jingpad/jade/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
     vendor/jingpad/jade/proprietary/vendor/bin/charge:$(TARGET_COPY_OUT_VENDOR)/bin/charge \
@@ -480,15 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/etc/tf_models/deeplabv3plus1.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/tf_models/deeplabv3plus1.tflite \
     vendor/jingpad/jade/proprietary/vendor/etc/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.conf \
     vendor/jingpad/jade/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_biometrics.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_biometrics.fingerprint.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_face.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_singlesim.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_singlesim.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_soter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_soter.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/jingpad/jade/proprietary/vendor/etc/wifi_board_config.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi_board_config.ini \
     vendor/jingpad/jade/proprietary/vendor/etc/wifi_board_config_ab.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi_board_config_ab.ini \
@@ -1225,3 +1210,14 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/sprdkbd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sprdkbd.kl \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/synaptics_tcm.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_tcm.kl
+
+DEVICE_MANIFEST_FILE += \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_biometrics.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_biometrics.fingerprint.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_face.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_singlesim.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_singlesim.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_soter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_soter.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml \
