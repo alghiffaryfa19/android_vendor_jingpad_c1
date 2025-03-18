@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),JingPad_C1)
+ifeq ($(TARGET_DEVICE),jade)
 
 endif
