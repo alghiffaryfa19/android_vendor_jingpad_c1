@@ -1211,7 +1211,7 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/sprdkbd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sprdkbd.kl \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/synaptics_tcm.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_tcm.kl
 
-DEVICE_MANIFEST_FILE += \
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
