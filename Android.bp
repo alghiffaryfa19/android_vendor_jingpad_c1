@@ -1,13 +1,13 @@
 cc_prebuilt_library_shared {
     name: "libstagefright_codecbase",
-    srcs: ["libstagefright_codecbase.so"],
+    srcs: ["proprietary/vendor/lib/libstagefright_codecbase.so"],
     installable: true,
     vendor: true,
 }
 
 cc_prebuilt_library_shared {
     name: "libstagefright_wfd",
-    srcs: ["libstagefright_wfd.so"],
+    srcs: ["proprietary/vendor/lib/libstagefright_wfd.so"],
     installable: true,
     vendor: true,
 }
