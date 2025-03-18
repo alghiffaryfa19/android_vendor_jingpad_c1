@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/etc/init/dataLogDaemon.rc:system/etc/init/dataLogDaemon.rc \
     vendor/jingpad/jade/proprietary/etc/init/data_rps.rc:system/etc/init/data_rps.rc \
     vendor/jingpad/jade/proprietary/etc/seccomp_policy/mediacodec.policy:system/etc/seccomp_policy/mediacodec.policy \
-    vendor/jingpad/jade/proprietary/lib/libstagefright_codecbase.so:system/lib/libstagefright_codecbase.so \
-    vendor/jingpad/jade/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
     vendor/jingpad/jade/proprietary/lib64/libstagefright_codecbase.so:system/lib64/libstagefright_codecbase.so \
     vendor/jingpad/jade/proprietary/vendor/bin/bc:$(TARGET_COPY_OUT_VENDOR)/bin/bc \
     vendor/jingpad/jade/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
