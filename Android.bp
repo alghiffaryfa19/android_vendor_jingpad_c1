@@ -1,6 +1,0 @@
-cc_prebuilt_library_shared {
-    name: "libstagefright_wfd",
-    srcs: ["proprietary/lib/libstagefright_wfd.so"],
-    installable: true,
-    vendor: true,
-}
