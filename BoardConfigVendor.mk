@@ -23,4 +23,4 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_singlesim.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_singlesim.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_soter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_soter.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml \
+    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml
