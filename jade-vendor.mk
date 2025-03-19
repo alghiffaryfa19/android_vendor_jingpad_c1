@@ -1209,6 +1209,7 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/sprdkbd.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sprdkbd.kl \
     vendor/jingpad/jade/proprietary/vendor/usr/keylayout/synaptics_tcm.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_tcm.kl
 
+
 PRODUCT_PACKAGES += \
     libstagefright_codecbase \
     libstagefright_wfd
