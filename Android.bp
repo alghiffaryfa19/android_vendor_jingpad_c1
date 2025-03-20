@@ -1,0 +1,6 @@
+cc_prebuilt_library_shared {
+    name: "libstagefright_codecbase",
+    srcs: ["proprietary/lib64/libstagefright_codecbase.so"],
+    installable: true,
+    vendor: true,
+}
