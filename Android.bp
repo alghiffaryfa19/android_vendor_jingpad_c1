@@ -2416,14 +2416,6 @@ cc_prebuilt_library_shared {
 
 
 cc_prebuilt_library_shared {
-    name: "libwpa_client",
-    srcs: ["proprietary/vendor/lib/libwpa_client.so"],
-    installable: true,
-    vendor: true,
-}
-
-
-cc_prebuilt_library_shared {
     name: "libxrp-common",
     srcs: ["proprietary/vendor/lib64/libxrp-common.so"],
     installable: true,
