@@ -1,0 +1,5439 @@
+
+cc_prebuilt_library_shared {
+    name: "camera.device@1.0-impl",
+    srcs: ["proprietary/vendor/lib/camera.device@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.2-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.2-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.3-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.3-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.4-external-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.4-external-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.4-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.4-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.5-external-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.5-external-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.5-impl-sprd",
+    srcs: ["proprietary/vendor/lib/camera.device@3.5-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libEGL_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libGLESv1_CM_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libGLESv2_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "enhance.ud710",
+    srcs: ["proprietary/vendor/lib/enhance.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.effect@5.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio@5.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.broadcastradio@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.drm@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.gatekeeper@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator@2.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.composer@2.1-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.health@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.health@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.light@2.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.memtrack@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.renderscript@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.sensors@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardwareundtrigger@2.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.bluetooth.default",
+    srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.bluetooth.ud710",
+    srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.primary.default",
+    srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.primary.ud710",
+    srcs: ["proprietary/vendor/lib/hw/audio.primary.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.r_submix.default",
+    srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.usb.default",
+    srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "awinic.audio.effect",
+    srcs: ["proprietary/vendor/lib/hw/awinic.audio.effect.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.ud710",
+    srcs: ["proprietary/vendor/lib/hw/camera.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "enhance.ud710",
+    srcs: ["proprietary/vendor/lib/hw/enhance.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "face.default",
+    srcs: ["proprietary/vendor/lib/hw/face.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.default",
+    srcs: ["proprietary/vendor/lib/hw/fingerprint.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.silead.default",
+    srcs: ["proprietary/vendor/lib/hw/fingerprint.silead.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gatekeeper.default",
+    srcs: ["proprietary/vendor/lib/hw/gatekeeper.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gps.default",
+    srcs: ["proprietary/vendor/lib/hw/gps.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gralloc.default",
+    srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gralloc.ud710",
+    srcs: ["proprietary/vendor/lib/hw/gralloc.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.ud710",
+    srcs: ["proprietary/vendor/lib/hw/hwcomposer.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "ifaa.default",
+    srcs: ["proprietary/vendor/lib/hw/ifaa.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "lights.ud710",
+    srcs: ["proprietary/vendor/lib/hw/lights.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "local_time.default",
+    srcs: ["proprietary/vendor/lib/hw/local_time.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "memtrack.ud710",
+    srcs: ["proprietary/vendor/lib/hw/memtrack.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "power.default",
+    srcs: ["proprietary/vendor/lib/hw/power.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "sensors.ud710",
+    srcs: ["proprietary/vendor/lib/hw/sensors.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "thermal.default",
+    srcs: ["proprietary/vendor/lib/hw/thermal.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.aprd@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.aprd@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.connmgr@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.connmgr@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.cplog_connmgr@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.cplog_connmgr@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.enhance@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.fingerprintmmi@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.gnss@2.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.gnss@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.ifaa@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.ifaa@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.log@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.log@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.network@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.network@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.power@4.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.power@4.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.thermal@1.0-impl",
+    srcs: ["proprietary/vendor/lib/hw/vendor.sprd.hardware.thermal@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vibrator.default",
+    srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vibrator.ud710",
+    srcs: ["proprietary/vendor/lib/hw/vibrator.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vulkan.ud710",
+    srcs: ["proprietary/vendor/lib/hw/vulkan.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libBokeh2Frames",
+    srcs: ["proprietary/vendor/lib/libBokeh2Frames.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libIMGegl",
+    srcs: ["proprietary/vendor/lib/libIMGegl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libPVRRS",
+    srcs: ["proprietary/vendor/lib/libPVRRS.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libPVRScopeServices",
+    srcs: ["proprietary/vendor/lib/libPVRScopeServices.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLite",
+    srcs: ["proprietary/vendor/lib/libSegLite.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLiteMNN",
+    srcs: ["proprietary/vendor/lib/libSegLiteMNN.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLiteXNNC",
+    srcs: ["proprietary/vendor/lib/libSegLiteXNNC.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdImageFilter",
+    srcs: ["proprietary/vendor/lib/libSprdImageFilter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdMfnrAdapter",
+    srcs: ["proprietary/vendor/lib/libSprdMfnrAdapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdPdAlgo",
+    srcs: ["proprietary/vendor/lib/libSprdPdAlgo.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libTfliteWrapper",
+    srcs: ["proprietary/vendor/lib/libTfliteWrapper.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libXMPCore",
+    srcs: ["proprietary/vendor/lib/libXMPCore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libXMPFiles",
+    srcs: ["proprietary/vendor/lib/libXMPFiles.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "lib_factorytest_ft2",
+    srcs: ["proprietary/vendor/lib/lib_factorytest_ft2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libae",
+    srcs: ["proprietary/vendor/lib/libae.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libae3.x",
+    srcs: ["proprietary/vendor/lib/libae3.x.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libalsautils",
+    srcs: ["proprietary/vendor/lib/libalsautils.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libalsc",
+    srcs: ["proprietary/vendor/lib/libalsc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libatci",
+    srcs: ["proprietary/vendor/lib/libatci.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libatm",
+    srcs: ["proprietary/vendor/lib/libatm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libaudionpi",
+    srcs: ["proprietary/vendor/lib/libaudionpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libawb",
+    srcs: ["proprietary/vendor/lib/libawb.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libawb1",
+    srcs: ["proprietary/vendor/lib/libawb1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_audio_session_unisoc",
+    srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_unisoc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbokeh_gaussian",
+    srcs: ["proprietary/vendor/lib/libbokeh_gaussian.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbokeh_gaussian_cap",
+    srcs: ["proprietary/vendor/lib/libbokeh_gaussian_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbqbbt",
+    srcs: ["proprietary/vendor/lib/libbqbbt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbt-sprd_suite",
+    srcs: ["proprietary/vendor/lib/libbt-sprd_suite.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor",
+    srcs: ["proprietary/vendor/lib/libbt-vendor.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcam_otp_parser",
+    srcs: ["proprietary/vendor/lib/libcam_otp_parser.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcambr",
+    srcs: ["proprietary/vendor/lib/libcambr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamcalitest",
+    srcs: ["proprietary/vendor/lib/libcamcalitest.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamcommon",
+    srcs: ["proprietary/vendor/lib/libcamcommon.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamdfa",
+    srcs: ["proprietary/vendor/lib/libcamdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv",
+    srcs: ["proprietary/vendor/lib/libcamdrv.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamfacebeauty",
+    srcs: ["proprietary/vendor/lib/libcamfacebeauty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamfb",
+    srcs: ["proprietary/vendor/lib/libcamfb.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamlpt",
+    srcs: ["proprietary/vendor/lib/libcamlpt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamoem",
+    srcs: ["proprietary/vendor/lib/libcamoem.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamperf",
+    srcs: ["proprietary/vendor/lib/libcamperf.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcampm",
+    srcs: ["proprietary/vendor/lib/libcampm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamsensor",
+    srcs: ["proprietary/vendor/lib/libcamsensor.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcppdrv",
+    srcs: ["proprietary/vendor/lib/libcppdrv.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcreatesurface",
+    srcs: ["proprietary/vendor/lib/libcreatesurface.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdeflicker",
+    srcs: ["proprietary/vendor/lib/libdeflicker.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdfa",
+    srcs: ["proprietary/vendor/lib/libdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libefuse",
+    srcs: ["proprietary/vendor/lib/libefuse.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libeng_tok",
+    srcs: ["proprietary/vendor/lib/libeng_tok.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libengbt",
+    srcs: ["proprietary/vendor/lib/libengbt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libengpc_adapt",
+    srcs: ["proprietary/vendor/lib/libengpc_adapt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libengpcctl",
+    srcs: ["proprietary/vendor/lib/libengpcctl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libfaceid_tee",
+    srcs: ["proprietary/vendor/lib/libfaceid_tee.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libfactorylib_silead",
+    srcs: ["proprietary/vendor/lib/libfactorylib_silead.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libflash",
+    srcs: ["proprietary/vendor/lib/libflash.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_ca",
+    srcs: ["proprietary/vendor/lib/libgf_ca.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_dump_data_decoder",
+    srcs: ["proprietary/vendor/lib/libgf_dump_data_decoder.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_factory_test",
+    srcs: ["proprietary/vendor/lib/libgf_factory_test.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal",
+    srcs: ["proprietary/vendor/lib/libgf_hal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libglslcompiler",
+    srcs: ["proprietary/vendor/lib/libglslcompiler.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgnssmgt",
+    srcs: ["proprietary/vendor/lib/libgnssmgt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgoodixhwfingerprint",
+    srcs: ["proprietary/vendor/lib/libgoodixhwfingerprint.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgyrostab",
+    srcs: ["proprietary/vendor/lib/libgyrostab.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libhdr",
+    srcs: ["proprietary/vendor/lib/libhdr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libhwc2onfbadapter",
+    srcs: ["proprietary/vendor/lib/libhwc2onfbadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libimgcustom",
+    srcs: ["proprietary/vendor/lib/libimgcustom.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libimpl-ril",
+    srcs: ["proprietary/vendor/lib/libimpl-ril.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libinfo",
+    srcs: ["proprietary/vendor/lib/libinfo.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libinterface",
+    srcs: ["proprietary/vendor/lib/libinterface.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libispalg",
+    srcs: ["proprietary/vendor/lib/libispalg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libiwnpi",
+    srcs: ["proprietary/vendor/lib/libiwnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libjpeg_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libjpeg_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libjpegenc_sw_sprd",
+    srcs: ["proprietary/vendor/lib/libjpegenc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkey",
+    srcs: ["proprietary/vendor/lib/libkey.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcsagent",
+    srcs: ["proprietary/vendor/lib/liblcsagent.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcscp",
+    srcs: ["proprietary/vendor/lib/liblcscp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcsmgt",
+    srcs: ["proprietary/vendor/lib/liblcsmgt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcswbxml2",
+    srcs: ["proprietary/vendor/lib/liblcswbxml2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblightportrait",
+    srcs: ["proprietary/vendor/lib/liblightportrait.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblowi_wifihal",
+    srcs: ["proprietary/vendor/lib/liblowi_wifihal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmapuser",
+    srcs: ["proprietary/vendor/lib/libmapuser.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmemion",
+    srcs: ["proprietary/vendor/lib/libmemion.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmfnr",
+    srcs: ["proprietary/vendor/lib/libmfnr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnavcore",
+    srcs: ["proprietary/vendor/lib/libnavcore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnight",
+    srcs: ["proprietary/vendor/lib/libnight.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnnaruntime",
+    srcs: ["proprietary/vendor/lib/libnnaruntime.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnpi_rtc",
+    srcs: ["proprietary/vendor/lib/libnpi_rtc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_sw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_vt_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_avcdec_vt_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcenc_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_avcenc_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_cabc_sw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_cabc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_hevcdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcenc_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_hevcenc_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263dec_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263dec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263dec_sw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263dec_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263enc_sw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_m4vh263enc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_mp3dec_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_mp3dec_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_mp3enc_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_mp3enc_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vp9dec_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_vp9dec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vpxdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_vpxdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vpxenc_hw_sprd",
+    srcs: ["proprietary/vendor/lib/libomx_vpxenc_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_gc5035_common",
+    srcs: ["proprietary/vendor/lib/libotp_gc5035_common.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_general",
+    srcs: ["proprietary/vendor/lib/libotp_general.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_ov13855",
+    srcs: ["proprietary/vendor/lib/libotp_ov13855.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_s5k4h7_tsp",
+    srcs: ["proprietary/vendor/lib/libotp_s5k4h7_tsp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_s5k5e8yx_jd",
+    srcs: ["proprietary/vendor/lib/libotp_s5k5e8yx_jd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libparam_gc8034",
+    srcs: ["proprietary/vendor/lib/libparam_gc8034.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libparam_s5k3p9sx04",
+    srcs: ["proprietary/vendor/lib/libparam_s5k3p9sx04.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libportrait_scene_cap",
+    srcs: ["proprietary/vendor/lib/libportrait_scene_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libportrait_scene_prev",
+    srcs: ["proprietary/vendor/lib/libportrait_scene_prev.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpowerhal_cli",
+    srcs: ["proprietary/vendor/lib/libpowerhal_cli.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libril-private",
+    srcs: ["proprietary/vendor/lib/libril-private.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "librilcore",
+    srcs: ["proprietary/vendor/lib/librilcore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "librpmbclient",
+    srcs: ["proprietary/vendor/lib/librpmbclient.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1b_js_1",
+    srcs: ["proprietary/vendor/lib/libsensor_gc02m1b_js_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1b_xl",
+    srcs: ["proprietary/vendor/lib/libsensor_gc02m1b_xl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375",
+    srcs: ["proprietary/vendor/lib/libsensor_gc2375.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375_js_2",
+    srcs: ["proprietary/vendor/lib/libsensor_gc2375_js_2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375_wj_2",
+    srcs: ["proprietary/vendor/lib/libsensor_gc2375_wj_2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375h",
+    srcs: ["proprietary/vendor/lib/libsensor_gc2375h.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2385_wj_1",
+    srcs: ["proprietary/vendor/lib/libsensor_gc2385_wj_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc5035",
+    srcs: ["proprietary/vendor/lib/libsensor_gc5035.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc8034",
+    srcs: ["proprietary/vendor/lib/libsensor_gc8034.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi1336_m0",
+    srcs: ["proprietary/vendor/lib/libsensor_hi1336_m0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi1336_s0",
+    srcs: ["proprietary/vendor/lib/libsensor_hi1336_s0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846",
+    srcs: ["proprietary/vendor/lib/libsensor_hi846.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_front",
+    srcs: ["proprietary/vendor/lib/libsensor_hi846_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_gj_1",
+    srcs: ["proprietary/vendor/lib/libsensor_hi846_gj_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_wide",
+    srcs: ["proprietary/vendor/lib/libsensor_hi846_wide.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx258",
+    srcs: ["proprietary/vendor/lib/libsensor_imx258.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx351",
+    srcs: ["proprietary/vendor/lib/libsensor_imx351.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx362",
+    srcs: ["proprietary/vendor/lib/libsensor_imx362.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx363",
+    srcs: ["proprietary/vendor/lib/libsensor_imx363.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx586",
+    srcs: ["proprietary/vendor/lib/libsensor_imx586.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov02b10",
+    srcs: ["proprietary/vendor/lib/libsensor_ov02b10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov02b1b",
+    srcs: ["proprietary/vendor/lib/libsensor_ov02b1b.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13853_m1",
+    srcs: ["proprietary/vendor/lib/libsensor_ov13853_m1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13853_s1",
+    srcs: ["proprietary/vendor/lib/libsensor_ov13853_s1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13855",
+    srcs: ["proprietary/vendor/lib/libsensor_ov13855.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13b10",
+    srcs: ["proprietary/vendor/lib/libsensor_ov13b10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov16885_normal",
+    srcs: ["proprietary/vendor/lib/libsensor_ov16885_normal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov16e10",
+    srcs: ["proprietary/vendor/lib/libsensor_ov16e10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov2680",
+    srcs: ["proprietary/vendor/lib/libsensor_ov2680.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov32a1q",
+    srcs: ["proprietary/vendor/lib/libsensor_ov32a1q.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov5675",
+    srcs: ["proprietary/vendor/lib/libsensor_ov5675.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov5675_dual",
+    srcs: ["proprietary/vendor/lib/libsensor_ov5675_dual.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov64b40",
+    srcs: ["proprietary/vendor/lib/libsensor_ov64b40.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov7251",
+    srcs: ["proprietary/vendor/lib/libsensor_ov7251.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov7251_dual",
+    srcs: ["proprietary/vendor/lib/libsensor_ov7251_dual.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_shine",
+    srcs: ["proprietary/vendor/lib/libsensor_ov8856_shine.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_shine_front",
+    srcs: ["proprietary/vendor/lib/libsensor_ov8856_shine_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_xl",
+    srcs: ["proprietary/vendor/lib/libsensor_ov8856_xl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_xl_front",
+    srcs: ["proprietary/vendor/lib/libsensor_ov8856_xl_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8858",
+    srcs: ["proprietary/vendor/lib/libsensor_ov8858.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k3l6.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6_551t",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k3l6_551t.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6xx03",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k3l6xx03.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l8xxm3",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k3l8xxm3.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3p9sx04",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k3p9sx04.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h7",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k4h7.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h8yx",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k4h8yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h9yx",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k4h9yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k5e8yx",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k5e8yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k5e9yu05",
+    srcs: ["proprietary/vendor/lib/libsensor_s5k5e9yu05.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5kgm1sp",
+    srcs: ["proprietary/vendor/lib/libsensor_s5kgm1sp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorlistcfg",
+    srcs: ["proprietary/vendor/lib/libsensorlistcfg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorndkbridge",
+    srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensornpi",
+    srcs: ["proprietary/vendor/lib/libsensornpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorsdrvcfg",
+    srcs: ["proprietary/vendor/lib/libsensorsdrvcfg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsl_fp_impl",
+    srcs: ["proprietary/vendor/lib/libsl_fp_impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsoter_trusty",
+    srcs: ["proprietary/vendor/lib/libsoter_trusty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libspafv1",
+    srcs: ["proprietary/vendor/lib/libspafv1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libspcaftrigger",
+    srcs: ["proprietary/vendor/lib/libspcaftrigger.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprd_omx_core",
+    srcs: ["proprietary/vendor/lib/libsprd_omx_core.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprd_portrait_cap",
+    srcs: ["proprietary/vendor/lib/libsprd_portrait_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaic",
+    srcs: ["proprietary/vendor/lib/libsprdaic.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohal_deathhandlerv5",
+    srcs: ["proprietary/vendor/lib/libsprdaudiohal_deathhandlerv5.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5",
+    srcs: ["proprietary/vendor/lib/libsprdaudiohalv5.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5@4.0",
+    srcs: ["proprietary/vendor/lib/libsprdaudiohalv5@4.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5@5.0",
+    srcs: ["proprietary/vendor/lib/libsprdaudiohalv5@5.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdbokeh",
+    srcs: ["proprietary/vendor/lib/libsprdbokeh.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcamalgassist",
+    srcs: ["proprietary/vendor/lib/libsprdcamalgassist.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcnr",
+    srcs: ["proprietary/vendor/lib/libsprdcnr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcnradapter",
+    srcs: ["proprietary/vendor/lib/libsprdcnradapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddre",
+    srcs: ["proprietary/vendor/lib/libsprddre.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddreadapter",
+    srcs: ["proprietary/vendor/lib/libsprddreadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddrepro",
+    srcs: ["proprietary/vendor/lib/libsprddrepro.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddreproadapter",
+    srcs: ["proprietary/vendor/lib/libsprddreproadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfa",
+    srcs: ["proprietary/vendor/lib/libsprdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfacebeauty",
+    srcs: ["proprietary/vendor/lib/libsprdfacebeauty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfacebeauty_vdsp",
+    srcs: ["proprietary/vendor/lib/libsprdfacebeauty_vdsp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfarcnn",
+    srcs: ["proprietary/vendor/lib/libsprdfarcnn.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfd",
+    srcs: ["proprietary/vendor/lib/libsprdfd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfd_hw",
+    srcs: ["proprietary/vendor/lib/libsprdfd_hw.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdhdr",
+    srcs: ["proprietary/vendor/lib/libsprdhdr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdhdradapter",
+    srcs: ["proprietary/vendor/lib/libsprdhdradapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdportraitsceneadapter",
+    srcs: ["proprietary/vendor/lib/libsprdportraitsceneadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdscenedetect",
+    srcs: ["proprietary/vendor/lib/libsprdscenedetect.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsrv_um",
+    srcs: ["proprietary/vendor/lib/libsrv_um.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_soft_imaadpcmdec",
+    srcs: ["proprietary/vendor/lib/libstagefright_soft_imaadpcmdec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_soft_mjpgdec",
+    srcs: ["proprietary/vendor/lib/libstagefright_soft_mjpgdec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_softomx_plugin",
+    srcs: ["proprietary/vendor/lib/libstagefright_softomx_plugin.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_deintl",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_deintl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h264dec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264dec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h264enc",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264enc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h265dec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265dec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_h265enc",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265enc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mp3dec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3dec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mp3enc",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3enc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mpeg4dec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4dec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_mpeg4enc",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4enc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_vp9dec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_vp9dec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefright_sprd_vpxdec",
+    srcs: ["proprietary/vendor/lib/libstagefright_sprd_vpxdec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefrighthw",
+    srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsupl",
+    srcs: ["proprietary/vendor/lib/libsupl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsutu_display",
+    srcs: ["proprietary/vendor/lib/libsutu_display.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsysoffloadstream",
+    srcs: ["proprietary/vendor/lib/libsysoffloadstream.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libteeproduction",
+    srcs: ["proprietary/vendor/lib/libteeproduction.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtinycompress_util",
+    srcs: ["proprietary/vendor/lib/libtinycompress_util.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtqvalidate",
+    srcs: ["proprietary/vendor/lib/libtqvalidate.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtracedump",
+    srcs: ["proprietary/vendor/lib/libtracedump.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtrusty",
+    srcs: ["proprietary/vendor/lib/libtrusty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libufwriter",
+    srcs: ["proprietary/vendor/lib/libufwriter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libunisocpreprocessing",
+    srcs: ["proprietary/vendor/lib/libunisocpreprocessing.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libusc",
+    srcs: ["proprietary/vendor/lib/libusc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9714.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714p",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9714p.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714v",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9714v.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9718s",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9718s.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9768v",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9768v.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9800",
+    srcs: ["proprietary/vendor/lib/libvcm_dw9800.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_fp5510ee4",
+    srcs: ["proprietary/vendor/lib/libvcm_fp5510ee4.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_lc898213",
+    srcs: ["proprietary/vendor/lib/libvcm_lc898213.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_zc524",
+    srcs: ["proprietary/vendor/lib/libvcm_zc524.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvdspservice",
+    srcs: ["proprietary/vendor/lib/libvdspservice.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvendor.goodix.hardware.biometrics.fingerprint@2.1",
+    srcs: ["proprietary/vendor/lib/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvendortinyxml",
+    srcs: ["proprietary/vendor/lib/libvendortinyxml.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libverify",
+    srcs: ["proprietary/vendor/lib/libverify.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvpx",
+    srcs: ["proprietary/vendor/lib/libvpx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libwifi-hal",
+    srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libwpa_client",
+    srcs: ["proprietary/vendor/lib/libwpa_client.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libxrp-common",
+    srcs: ["proprietary/vendor/lib/libxrp-common.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libyuv420_scaler",
+    srcs: ["proprietary/vendor/lib/libyuv420_scaler.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libclearkeycasplugin",
+    srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdrmclearkeyplugin",
+    srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "PQTune.ud710",
+    srcs: ["proprietary/vendor/lib/npidevice/PQTune.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotestfinger",
+    srcs: ["proprietary/vendor/lib/npidevice/autotestfinger.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotestfm",
+    srcs: ["proprietary/vendor/lib/npidevice/autotestfm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotestsensorinfo",
+    srcs: ["proprietary/vendor/lib/npidevice/autotestsensorinfo.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotestsim",
+    srcs: ["proprietary/vendor/lib/npidevice/autotestsim.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotesttcard",
+    srcs: ["proprietary/vendor/lib/npidevice/autotesttcard.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "autotestwifi",
+    srcs: ["proprietary/vendor/lib/npidevice/autotestwifi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libFactoryRadioTest",
+    srcs: ["proprietary/vendor/lib/npidevice/libFactoryRadioTest.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libap_opt",
+    srcs: ["proprietary/vendor/lib/npidevice/libap_opt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libapcomm",
+    srcs: ["proprietary/vendor/lib/npidevice/libapcomm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libapdeepsleep",
+    srcs: ["proprietary/vendor/lib/npidevice/libapdeepsleep.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libatfm",
+    srcs: ["proprietary/vendor/lib/npidevice/libatfm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libaudionpi",
+    srcs: ["proprietary/vendor/lib/npidevice/libaudionpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbt-sprd_eut",
+    srcs: ["proprietary/vendor/lib/npidevice/libbt-sprd_eut.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamcalitest",
+    srcs: ["proprietary/vendor/lib/npidevice/libcamcalitest.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcharge",
+    srcs: ["proprietary/vendor/lib/npidevice/libcharge.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcheckkeybox",
+    srcs: ["proprietary/vendor/lib/npidevice/libcheckkeybox.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libchipid",
+    srcs: ["proprietary/vendor/lib/npidevice/libchipid.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcomcontrol",
+    srcs: ["proprietary/vendor/lib/npidevice/libcomcontrol.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdcxcali",
+    srcs: ["proprietary/vendor/lib/npidevice/libdcxcali.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdynamicproduction",
+    srcs: ["proprietary/vendor/lib/npidevice/libdynamicproduction.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libfm-sprd_eut",
+    srcs: ["proprietary/vendor/lib/npidevice/libfm-sprd_eut.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libftmode",
+    srcs: ["proprietary/vendor/lib/npidevice/libftmode.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgetswpac",
+    srcs: ["proprietary/vendor/lib/npidevice/libgetswpac.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgetuid",
+    srcs: ["proprietary/vendor/lib/npidevice/libgetuid.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgpio",
+    srcs: ["proprietary/vendor/lib/npidevice/libgpio.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgpspc",
+    srcs: ["proprietary/vendor/lib/npidevice/libgpspc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libifaacheck",
+    srcs: ["proprietary/vendor/lib/npidevice/libifaacheck.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkeypadnpi",
+    srcs: ["proprietary/vendor/lib/npidevice/libkeypadnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcdnpi",
+    srcs: ["proprietary/vendor/lib/npidevice/liblcdnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblkvnpi",
+    srcs: ["proprietary/vendor/lib/npidevice/liblkvnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmiscdata",
+    srcs: ["proprietary/vendor/lib/npidevice/libmiscdata.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnefuse",
+    srcs: ["proprietary/vendor/lib/npidevice/libnefuse.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnpi_rtc",
+    srcs: ["proprietary/vendor/lib/npidevice/libnpi_rtc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpppDial",
+    srcs: ["proprietary/vendor/lib/npidevice/libpppDial.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libreadfixednv",
+    srcs: ["proprietary/vendor/lib/npidevice/libreadfixednv.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "librebootcmd",
+    srcs: ["proprietary/vendor/lib/npidevice/librebootcmd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libregulator",
+    srcs: ["proprietary/vendor/lib/npidevice/libregulator.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensornpi",
+    srcs: ["proprietary/vendor/lib/npidevice/libsensornpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsoter_checkx",
+    srcs: ["proprietary/vendor/lib/npidevice/libsoter_checkx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtsensor",
+    srcs: ["proprietary/vendor/lib/npidevice/libtsensor.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtsxrawdata",
+    srcs: ["proprietary/vendor/lib/npidevice/libtsxrawdata.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libusbtypec",
+    srcs: ["proprietary/vendor/lib/npidevice/libusbtypec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libwifieut_m3",
+    srcs: ["proprietary/vendor/lib/npidevice/libwifieut_m3.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "nativemmifinger",
+    srcs: ["proprietary/vendor/lib/npidevice/nativemmifinger.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "power.sprd",
+    srcs: ["proprietary/vendor/lib/power.sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpubefuseapi",
+    srcs: ["proprietary/vendor/lib/production/libpubefuseapi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbundlewrapper2",
+    srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdynproc",
+    srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdvoiceprocessing",
+    srcs: ["proprietary/vendor/lib/soundfx/libsprdvoiceprocessing.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.aprd@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.aprd@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.connmgr@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.connmgr@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.cplog_connmgr@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.cplog_connmgr@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.enhance@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.enhance@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.fingerprintmmi@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.gnss@2.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.gnss@2.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.ifaa@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.ifaa@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.log@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.log@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.network@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.network@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.power@4.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.power@4.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.radio@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.radio@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.thermal@1.0",
+    srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.thermal@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/camera.device@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.2-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.2-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.3-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.3-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.4-external-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.4-external-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.4-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.4-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.5-external-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.5-external-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.device@3.5-impl-sprd",
+    srcs: ["proprietary/vendor/lib64/camera.device@3.5-impl-sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libEGL_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib64/egl/libEGL_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libGLESv1_CM_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib64/egl/libGLESv1_CM_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libGLESv2_POWERVR_ROGUE",
+    srcs: ["proprietary/vendor/lib64/egl/libGLESv2_POWERVR_ROGUE.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "enhance.ud710",
+    srcs: ["proprietary/vendor/lib64/enhance.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio.effect@5.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.audio@5.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.audio@5.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.broadcastradio@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.gatekeeper@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator@2.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.composer@2.1-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.health@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.health@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.light@2.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.memtrack@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.renderscript@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.sensors@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.bluetooth.default",
+    srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.bluetooth.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/audio.bluetooth.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.primary.default",
+    srcs: ["proprietary/vendor/lib64/hw/audio.primary.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.r_submix.default",
+    srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "audio.usb.default",
+    srcs: ["proprietary/vendor/lib64/hw/audio.usb.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "camera.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/camera.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "enhance.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/enhance.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "face.default",
+    srcs: ["proprietary/vendor/lib64/hw/face.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.default",
+    srcs: ["proprietary/vendor/lib64/hw/fingerprint.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.silead.default",
+    srcs: ["proprietary/vendor/lib64/hw/fingerprint.silead.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gatekeeper.default",
+    srcs: ["proprietary/vendor/lib64/hw/gatekeeper.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gps.default",
+    srcs: ["proprietary/vendor/lib64/hw/gps.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gralloc.default",
+    srcs: ["proprietary/vendor/lib64/hw/gralloc.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "gralloc.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/gralloc.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "hwcomposer.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/hwcomposer.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "ifaa.default",
+    srcs: ["proprietary/vendor/lib64/hw/ifaa.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "lights.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/lights.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "local_time.default",
+    srcs: ["proprietary/vendor/lib64/hw/local_time.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "memtrack.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/memtrack.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "power.default",
+    srcs: ["proprietary/vendor/lib64/hw/power.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "sensors.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/sensors.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "thermal.default",
+    srcs: ["proprietary/vendor/lib64/hw/thermal.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.aprd@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.aprd@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.connmgr@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.connmgr@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.cplog_connmgr@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.cplog_connmgr@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.enhance@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.enhance@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.fingerprintmmi@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.fingerprintmmi@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.gnss@2.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.gnss@2.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.ifaa@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.ifaa@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.log@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.log@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.network@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.network@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.power@4.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.power@4.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.thermal@1.0-impl",
+    srcs: ["proprietary/vendor/lib64/hw/vendor.sprd.hardware.thermal@1.0-impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vibrator.default",
+    srcs: ["proprietary/vendor/lib64/hw/vibrator.default.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vibrator.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/vibrator.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vulkan.ud710",
+    srcs: ["proprietary/vendor/lib64/hw/vulkan.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libBokeh2Frames",
+    srcs: ["proprietary/vendor/lib64/libBokeh2Frames.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libIMGegl",
+    srcs: ["proprietary/vendor/lib64/libIMGegl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libPVRRS",
+    srcs: ["proprietary/vendor/lib64/libPVRRS.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libPVRScopeServices",
+    srcs: ["proprietary/vendor/lib64/libPVRScopeServices.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLite",
+    srcs: ["proprietary/vendor/lib64/libSegLite.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLiteMNN",
+    srcs: ["proprietary/vendor/lib64/libSegLiteMNN.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSegLiteXNNC",
+    srcs: ["proprietary/vendor/lib64/libSegLiteXNNC.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdImageFilter",
+    srcs: ["proprietary/vendor/lib64/libSprdImageFilter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdMfnrAdapter",
+    srcs: ["proprietary/vendor/lib64/libSprdMfnrAdapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libSprdPdAlgo",
+    srcs: ["proprietary/vendor/lib64/libSprdPdAlgo.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libTfliteWrapper",
+    srcs: ["proprietary/vendor/lib64/libTfliteWrapper.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libXMPCore",
+    srcs: ["proprietary/vendor/lib64/libXMPCore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libXMPFiles",
+    srcs: ["proprietary/vendor/lib64/libXMPFiles.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libae",
+    srcs: ["proprietary/vendor/lib64/libae.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libae3.x",
+    srcs: ["proprietary/vendor/lib64/libae3.x.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libalsautils",
+    srcs: ["proprietary/vendor/lib64/libalsautils.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libalsc",
+    srcs: ["proprietary/vendor/lib64/libalsc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libatci",
+    srcs: ["proprietary/vendor/lib64/libatci.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libatm",
+    srcs: ["proprietary/vendor/lib64/libatm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libaudionpi",
+    srcs: ["proprietary/vendor/lib64/libaudionpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libawb",
+    srcs: ["proprietary/vendor/lib64/libawb.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libawb1",
+    srcs: ["proprietary/vendor/lib64/libawb1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_audio_session_unisoc",
+    srcs: ["proprietary/vendor/lib64/libbluetooth_audio_session_unisoc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbokeh_gaussian",
+    srcs: ["proprietary/vendor/lib64/libbokeh_gaussian.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbokeh_gaussian_cap",
+    srcs: ["proprietary/vendor/lib64/libbokeh_gaussian_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbt-sprd_suite",
+    srcs: ["proprietary/vendor/lib64/libbt-sprd_suite.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor",
+    srcs: ["proprietary/vendor/lib64/libbt-vendor.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcam_otp_parser",
+    srcs: ["proprietary/vendor/lib64/libcam_otp_parser.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcambr",
+    srcs: ["proprietary/vendor/lib64/libcambr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamcalitest",
+    srcs: ["proprietary/vendor/lib64/libcamcalitest.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamcommon",
+    srcs: ["proprietary/vendor/lib64/libcamcommon.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamdfa",
+    srcs: ["proprietary/vendor/lib64/libcamdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv",
+    srcs: ["proprietary/vendor/lib64/libcamdrv.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamfacebeauty",
+    srcs: ["proprietary/vendor/lib64/libcamfacebeauty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamfb",
+    srcs: ["proprietary/vendor/lib64/libcamfb.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamlpt",
+    srcs: ["proprietary/vendor/lib64/libcamlpt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamoem",
+    srcs: ["proprietary/vendor/lib64/libcamoem.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamperf",
+    srcs: ["proprietary/vendor/lib64/libcamperf.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcampm",
+    srcs: ["proprietary/vendor/lib64/libcampm.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcamsensor",
+    srcs: ["proprietary/vendor/lib64/libcamsensor.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcppdrv",
+    srcs: ["proprietary/vendor/lib64/libcppdrv.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcreatesurface",
+    srcs: ["proprietary/vendor/lib64/libcreatesurface.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdeflicker",
+    srcs: ["proprietary/vendor/lib64/libdeflicker.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdfa",
+    srcs: ["proprietary/vendor/lib64/libdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libefuse",
+    srcs: ["proprietary/vendor/lib64/libefuse.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libeng_tok",
+    srcs: ["proprietary/vendor/lib64/libeng_tok.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libfaceid_tee",
+    srcs: ["proprietary/vendor/lib64/libfaceid_tee.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libfactorylib_silead",
+    srcs: ["proprietary/vendor/lib64/libfactorylib_silead.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libflash",
+    srcs: ["proprietary/vendor/lib64/libflash.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_ca",
+    srcs: ["proprietary/vendor/lib64/libgf_ca.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_dump_data_decoder",
+    srcs: ["proprietary/vendor/lib64/libgf_dump_data_decoder.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_factory_test",
+    srcs: ["proprietary/vendor/lib64/libgf_factory_test.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal",
+    srcs: ["proprietary/vendor/lib64/libgf_hal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libglslcompiler",
+    srcs: ["proprietary/vendor/lib64/libglslcompiler.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgnssmgt",
+    srcs: ["proprietary/vendor/lib64/libgnssmgt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgoodixhwfingerprint",
+    srcs: ["proprietary/vendor/lib64/libgoodixhwfingerprint.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgyrostab",
+    srcs: ["proprietary/vendor/lib64/libgyrostab.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libhdr",
+    srcs: ["proprietary/vendor/lib64/libhdr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libhwc2onfbadapter",
+    srcs: ["proprietary/vendor/lib64/libhwc2onfbadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libhwminijail",
+    srcs: ["proprietary/vendor/lib64/libhwminijail.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libimgcustom",
+    srcs: ["proprietary/vendor/lib64/libimgcustom.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libimpl-ril",
+    srcs: ["proprietary/vendor/lib64/libimpl-ril.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libinfo",
+    srcs: ["proprietary/vendor/lib64/libinfo.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libinterface",
+    srcs: ["proprietary/vendor/lib64/libinterface.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libispalg",
+    srcs: ["proprietary/vendor/lib64/libispalg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libiwnpi",
+    srcs: ["proprietary/vendor/lib64/libiwnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libjpeg_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libjpeg_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libjpegenc_sw_sprd",
+    srcs: ["proprietary/vendor/lib64/libjpegenc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkernelbootcp.trusty",
+    srcs: ["proprietary/vendor/lib64/libkernelbootcp.trusty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkey",
+    srcs: ["proprietary/vendor/lib64/libkey.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkeymaster4",
+    srcs: ["proprietary/vendor/lib64/libkeymaster4.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkeystore-engine-wifi-hidl",
+    srcs: ["proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libkeystore-wifi-hidl",
+    srcs: ["proprietary/vendor/lib64/libkeystore-wifi-hidl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcsagent",
+    srcs: ["proprietary/vendor/lib64/liblcsagent.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcscp",
+    srcs: ["proprietary/vendor/lib64/liblcscp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcsmgt",
+    srcs: ["proprietary/vendor/lib64/liblcsmgt.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcswbxml2",
+    srcs: ["proprietary/vendor/lib64/liblcswbxml2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblightportrait",
+    srcs: ["proprietary/vendor/lib64/liblightportrait.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblowi_wifihal",
+    srcs: ["proprietary/vendor/lib64/liblowi_wifihal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmapuser",
+    srcs: ["proprietary/vendor/lib64/libmapuser.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmemion",
+    srcs: ["proprietary/vendor/lib64/libmemion.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libmfnr",
+    srcs: ["proprietary/vendor/lib64/libmfnr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnavcore",
+    srcs: ["proprietary/vendor/lib64/libnavcore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnight",
+    srcs: ["proprietary/vendor/lib64/libnight.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libnnaruntime",
+    srcs: ["proprietary/vendor/lib64/libnnaruntime.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_sw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_vt_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_avcdec_vt_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_cabc_sw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_cabc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_hevcdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcenc_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_hevcenc_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263dec_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263dec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263dec_sw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263dec_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_m4vh263enc_sw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_m4vh263enc_sw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_mp3enc_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_mp3enc_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vp9dec_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_vp9dec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vpxdec_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_vpxdec_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libomx_vpxenc_hw_sprd",
+    srcs: ["proprietary/vendor/lib64/libomx_vpxenc_hw_sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_gc5035_common",
+    srcs: ["proprietary/vendor/lib64/libotp_gc5035_common.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_general",
+    srcs: ["proprietary/vendor/lib64/libotp_general.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_ov13855",
+    srcs: ["proprietary/vendor/lib64/libotp_ov13855.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_s5k4h7_tsp",
+    srcs: ["proprietary/vendor/lib64/libotp_s5k4h7_tsp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libotp_s5k5e8yx_jd",
+    srcs: ["proprietary/vendor/lib64/libotp_s5k5e8yx_jd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libparam_gc8034",
+    srcs: ["proprietary/vendor/lib64/libparam_gc8034.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libparam_s5k3p9sx04",
+    srcs: ["proprietary/vendor/lib64/libparam_s5k3p9sx04.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libportrait_scene_cap",
+    srcs: ["proprietary/vendor/lib64/libportrait_scene_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libportrait_scene_prev",
+    srcs: ["proprietary/vendor/lib64/libportrait_scene_prev.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpowerhal_cli",
+    srcs: ["proprietary/vendor/lib64/libpowerhal_cli.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libril-private",
+    srcs: ["proprietary/vendor/lib64/libril-private.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "librilcore",
+    srcs: ["proprietary/vendor/lib64/librilcore.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "librpmbclient",
+    srcs: ["proprietary/vendor/lib64/librpmbclient.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1b_js_1",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc02m1b_js_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1b_xl",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc02m1b_xl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc2375.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375_js_2",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc2375_js_2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375_wj_2",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc2375_wj_2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2375h",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc2375h.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc2385_wj_1",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc2385_wj_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc5035",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc5035.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc8034",
+    srcs: ["proprietary/vendor/lib64/libsensor_gc8034.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi1336_m0",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi1336_m0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi1336_s0",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi1336_s0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi846.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_front",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi846_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_gj_1",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi846_gj_1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_hi846_wide",
+    srcs: ["proprietary/vendor/lib64/libsensor_hi846_wide.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx258",
+    srcs: ["proprietary/vendor/lib64/libsensor_imx258.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx351",
+    srcs: ["proprietary/vendor/lib64/libsensor_imx351.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx362",
+    srcs: ["proprietary/vendor/lib64/libsensor_imx362.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx363",
+    srcs: ["proprietary/vendor/lib64/libsensor_imx363.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_imx586",
+    srcs: ["proprietary/vendor/lib64/libsensor_imx586.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov02b10",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov02b10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov02b1b",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov02b1b.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13853_m1",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov13853_m1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13853_s1",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov13853_s1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13855",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov13855.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov13b10",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov13b10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov16885_normal",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov16885_normal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov16e10",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov16e10.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov2680",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov2680.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov32a1q",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov32a1q.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov5675",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov5675.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov5675_dual",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov5675_dual.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov64b40",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov64b40.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov7251",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov7251.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov7251_dual",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov7251_dual.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_shine",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov8856_shine.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_shine_front",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov8856_shine_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_xl",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov8856_xl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8856_xl_front",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov8856_xl_front.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov8858",
+    srcs: ["proprietary/vendor/lib64/libsensor_ov8858.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k3l6.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6_551t",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k3l6_551t.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l6xx03",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k3l6xx03.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3l8xxm3",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k3l8xxm3.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k3p9sx04",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k3p9sx04.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h7",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k4h7.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h8yx",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k4h8yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k4h9yx",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k4h9yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k5e8yx",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k5e8yx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5k5e9yu05",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5k5e9yu05.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensor_s5kgm1sp",
+    srcs: ["proprietary/vendor/lib64/libsensor_s5kgm1sp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorlistcfg",
+    srcs: ["proprietary/vendor/lib64/libsensorlistcfg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorndkbridge",
+    srcs: ["proprietary/vendor/lib64/libsensorndkbridge.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensornpi",
+    srcs: ["proprietary/vendor/lib64/libsensornpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsensorsdrvcfg",
+    srcs: ["proprietary/vendor/lib64/libsensorsdrvcfg.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsl_fp_impl",
+    srcs: ["proprietary/vendor/lib64/libsl_fp_impl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsoter_trusty",
+    srcs: ["proprietary/vendor/lib64/libsoter_trusty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libspafv1",
+    srcs: ["proprietary/vendor/lib64/libspafv1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libspcaftrigger",
+    srcs: ["proprietary/vendor/lib64/libspcaftrigger.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprd_omx_core",
+    srcs: ["proprietary/vendor/lib64/libsprd_omx_core.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprd_portrait_cap",
+    srcs: ["proprietary/vendor/lib64/libsprd_portrait_cap.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaic",
+    srcs: ["proprietary/vendor/lib64/libsprdaic.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohal_deathhandlerv5",
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohal_deathhandlerv5.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5",
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohalv5.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5@4.0",
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohalv5@4.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdaudiohalv5@5.0",
+    srcs: ["proprietary/vendor/lib64/libsprdaudiohalv5@5.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdbokeh",
+    srcs: ["proprietary/vendor/lib64/libsprdbokeh.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcamalgassist",
+    srcs: ["proprietary/vendor/lib64/libsprdcamalgassist.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcnr",
+    srcs: ["proprietary/vendor/lib64/libsprdcnr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdcnradapter",
+    srcs: ["proprietary/vendor/lib64/libsprdcnradapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddre",
+    srcs: ["proprietary/vendor/lib64/libsprddre.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddreadapter",
+    srcs: ["proprietary/vendor/lib64/libsprddreadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddrepro",
+    srcs: ["proprietary/vendor/lib64/libsprddrepro.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprddreproadapter",
+    srcs: ["proprietary/vendor/lib64/libsprddreproadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfa",
+    srcs: ["proprietary/vendor/lib64/libsprdfa.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfacebeauty",
+    srcs: ["proprietary/vendor/lib64/libsprdfacebeauty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfacebeauty_vdsp",
+    srcs: ["proprietary/vendor/lib64/libsprdfacebeauty_vdsp.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfarcnn",
+    srcs: ["proprietary/vendor/lib64/libsprdfarcnn.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfd",
+    srcs: ["proprietary/vendor/lib64/libsprdfd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdfd_hw",
+    srcs: ["proprietary/vendor/lib64/libsprdfd_hw.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdhdr",
+    srcs: ["proprietary/vendor/lib64/libsprdhdr.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdhdradapter",
+    srcs: ["proprietary/vendor/lib64/libsprdhdradapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdportraitsceneadapter",
+    srcs: ["proprietary/vendor/lib64/libsprdportraitsceneadapter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsprdscenedetect",
+    srcs: ["proprietary/vendor/lib64/libsprdscenedetect.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsrv_um",
+    srcs: ["proprietary/vendor/lib64/libsrv_um.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libstagefrighthw",
+    srcs: ["proprietary/vendor/lib64/libstagefrighthw.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsupl",
+    srcs: ["proprietary/vendor/lib64/libsupl.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsutu_display",
+    srcs: ["proprietary/vendor/lib64/libsutu_display.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsysoffloadstream",
+    srcs: ["proprietary/vendor/lib64/libsysoffloadstream.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libteeproduction",
+    srcs: ["proprietary/vendor/lib64/libteeproduction.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtqvalidate",
+    srcs: ["proprietary/vendor/lib64/libtqvalidate.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libtrusty",
+    srcs: ["proprietary/vendor/lib64/libtrusty.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libufwriter",
+    srcs: ["proprietary/vendor/lib64/libufwriter.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libusc",
+    srcs: ["proprietary/vendor/lib64/libusc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9714.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714p",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9714p.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9714v",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9714v.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9718s",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9718s.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9768v",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9768v.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9800",
+    srcs: ["proprietary/vendor/lib64/libvcm_dw9800.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_fp5510ee4",
+    srcs: ["proprietary/vendor/lib64/libvcm_fp5510ee4.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_lc898213",
+    srcs: ["proprietary/vendor/lib64/libvcm_lc898213.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvcm_zc524",
+    srcs: ["proprietary/vendor/lib64/libvcm_zc524.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvdspservice",
+    srcs: ["proprietary/vendor/lib64/libvdspservice.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvendor.goodix.hardware.biometrics.fingerprint@2.1",
+    srcs: ["proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libvendortinyxml",
+    srcs: ["proprietary/vendor/lib64/libvendortinyxml.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libverify",
+    srcs: ["proprietary/vendor/lib64/libverify.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libwifi-hal",
+    srcs: ["proprietary/vendor/lib64/libwifi-hal.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libxrp-common",
+    srcs: ["proprietary/vendor/lib64/libxrp-common.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libyuv420_scaler",
+    srcs: ["proprietary/vendor/lib64/libyuv420_scaler.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libclearkeycasplugin",
+    srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdrmclearkeyplugin",
+    srcs: ["proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "PQTune.ud710",
+    srcs: ["proprietary/vendor/lib64/npidevice/PQTune.ud710.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libFactoryRadioTest",
+    srcs: ["proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libcheckkeybox",
+    srcs: ["proprietary/vendor/lib64/npidevice/libcheckkeybox.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libgetuid",
+    srcs: ["proprietary/vendor/lib64/npidevice/libgetuid.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblcdnpi",
+    srcs: ["proprietary/vendor/lib64/npidevice/liblcdnpi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpppDial",
+    srcs: ["proprietary/vendor/lib64/npidevice/libpppDial.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libsoter_checkx",
+    srcs: ["proprietary/vendor/lib64/npidevice/libsoter_checkx.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libusbtypec",
+    srcs: ["proprietary/vendor/lib64/npidevice/libusbtypec.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "power.sprd",
+    srcs: ["proprietary/vendor/lib64/power.sprd.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libpubefuseapi",
+    srcs: ["proprietary/vendor/lib64/production/libpubefuseapi.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libbundlewrapper2",
+    srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper2.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libdynproc",
+    srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.aprd@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.aprd@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.connmgr@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.connmgr@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.cplog_connmgr@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.cplog_connmgr@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.enhance@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.enhance@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.face@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.face@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.fingerprintmmi@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.fingerprintmmi@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.gnss@2.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.gnss@2.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.ifaa@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.ifaa@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.log@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.log@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.network@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.network@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.power@4.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.power@4.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.radio@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.radio@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardwareter@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.soter@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.thermal@1.0",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.thermal@1.0.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.wifi.hostapd@1.1",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.hostapd@1.1.so"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "vendor.sprd.hardware.wifi.supplicant@1.2",
+    srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.supplicant@1.2.so"],
+    installable: true,
+    vendor: true,
+}
