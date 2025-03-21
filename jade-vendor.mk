@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/cnn_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/hw/cnn_testbench \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/urild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/urild \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.aprd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.aprd@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service \
@@ -75,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.power@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.power@4.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.soter@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.thermal@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/jingpad/jade/proprietary/vendor/bin/iqfeed:$(TARGET_COPY_OUT_VENDOR)/bin/iqfeed \
     vendor/jingpad/jade/proprietary/vendor/bin/iwnpi:$(TARGET_COPY_OUT_VENDOR)/bin/iwnpi \
     vendor/jingpad/jade/proprietary/vendor/bin/mlogservice:$(TARGET_COPY_OUT_VENDOR)/bin/mlogservice \
