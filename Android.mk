@@ -16,11 +16,4 @@
 
 LOCAL_PATH := $(call my-dir)
 
-LOCAL_SHARED_LIBRARIES := android.hardware.wifi.supplicant@1.0 \
-                          android.hardware.wifi.supplicant@1.1 \
-                          android.hardware.wifi.supplicant@1.2 \
-                          libbase libc++ libcrypto libcutils \
-                          libhidlbase libhidltransport libhwbinder \
-                          libkeystore-engine-wifi-hidl libkeystore-wifi-hidl \
-                          liblog libnl libssl libutils \
-                          vendor.sprd.hardware.wifi.supplicant@1.2
+LOCAL_CHECK_ELF_FILES := false
