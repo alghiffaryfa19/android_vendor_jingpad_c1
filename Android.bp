@@ -2415,6 +2415,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.media.omx",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service"],
+    installable: true,
+    vendor: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
     name: "hostapd",
     srcs: ["proprietary/vendor/bin/hw/hostapd"],
     installable: true,

@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-unisoc.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-unisoc.service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-img-nn-hw:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-img-nn-hw \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.power.stats@1.0-service.mock:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.stats@1.0-service.mock \
