@@ -1,4 +1,3 @@
-check_elf_files: false,
 
 cc_prebuilt_library_shared {
     name: "camera.device@1.0-impl",
