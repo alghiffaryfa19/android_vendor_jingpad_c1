@@ -2422,6 +2422,13 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.vibrator",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
     name: "hostapd",
     srcs: ["proprietary/vendor/bin/hw/hostapd"],
     installable: true,

@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mock:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mock \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/cnn_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/hw/cnn_testbench \
     vendor/jingpad/jade/proprietary/vendor/bin/hw/urild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/urild \
