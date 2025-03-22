@@ -17,6 +17,4 @@
 DEVICE_MANIFEST_FILE += \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_face.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_singlesim.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_soter.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.0-service.xml
