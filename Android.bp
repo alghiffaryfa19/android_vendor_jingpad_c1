@@ -3369,14 +3369,6 @@ cc_prebuilt_binary {
 
 
 cc_prebuilt_binary {
-    name: "dumpsys",
-    srcs: ["proprietary/vendor/bin/dumpsys"],
-    installable: true,
-    vendor: true,
-}
-
-
-cc_prebuilt_binary {
     name: "engpc",
     srcs: ["proprietary/vendor/bin/engpc"],
     installable: true,
