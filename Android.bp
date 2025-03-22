@@ -2466,6 +2466,7 @@ cc_prebuilt_binary {
     srcs: ["proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 
