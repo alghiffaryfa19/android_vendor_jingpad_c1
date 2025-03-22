@@ -3313,14 +3313,6 @@ cc_prebuilt_library_shared {
 
 
 cc_prebuilt_binary {
-    name: "bc",
-    srcs: ["proprietary/vendor/bin/bc"],
-    installable: true,
-    vendor: true,
-}
-
-
-cc_prebuilt_binary {
     name: "btools",
     srcs: ["proprietary/vendor/bin/btools"],
     installable: true,
