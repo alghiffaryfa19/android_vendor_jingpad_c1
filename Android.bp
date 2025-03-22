@@ -3310,3 +3310,291 @@ cc_prebuilt_library_shared {
     installable: true,
     vendor: true,
 }
+
+
+cc_prebuilt_binary {
+    name: "bc",
+    srcs: ["proprietary/vendor/bin/bc"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "btools",
+    srcs: ["proprietary/vendor/bin/btools"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "charge",
+    srcs: ["proprietary/vendor/bin/charge"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "connmgr",
+    srcs: ["proprietary/vendor/bin/connmgr"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "connmgr_cli",
+    srcs: ["proprietary/vendor/bin/connmgr_cli"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "cp_diskserver",
+    srcs: ["proprietary/vendor/bin/cp_diskserver"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "cplogctl",
+    srcs: ["proprietary/vendor/bin/cplogctl"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "dcxsrv",
+    srcs: ["proprietary/vendor/bin/dcxsrv"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "dumpsys",
+    srcs: ["proprietary/vendor/bin/dumpsys"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "engpc",
+    srcs: ["proprietary/vendor/bin/engpc"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "engpcctl",
+    srcs: ["proprietary/vendor/bin/engpcctl"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "enhance_test",
+    srcs: ["proprietary/vendor/bin/enhance_test"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "factorytest",
+    srcs: ["proprietary/vendor/bin/factorytest"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "flush_slog_modem",
+    srcs: ["proprietary/vendor/bin/flush_slog_modem"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "gpsd",
+    srcs: ["proprietary/vendor/bin/gpsd"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "iqfeed",
+    srcs: ["proprietary/vendor/bin/iqfeed"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "iwnpi",
+    srcs: ["proprietary/vendor/bin/iwnpi"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "mlogservice",
+    srcs: ["proprietary/vendor/bin/mlogservice"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "modem_control",
+    srcs: ["proprietary/vendor/bin/modem_control"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "modem_ctrl_dbg",
+    srcs: ["proprietary/vendor/bin/modem_ctrl_dbg"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "phasecheckserver",
+    srcs: ["proprietary/vendor/bin/phasecheckserver"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "pvrdebug",
+    srcs: ["proprietary/vendor/bin/pvrdebug"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "pvrhwperf",
+    srcs: ["proprietary/vendor/bin/pvrhwperf"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "refnotify",
+    srcs: ["proprietary/vendor/bin/refnotify"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "rpmbserver",
+    srcs: ["proprietary/vendor/bin/rpmbserver"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "rscompiler",
+    srcs: ["proprietary/vendor/bin/rscompiler"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "sprdstorageproxyd",
+    srcs: ["proprietary/vendor/bin/sprdstorageproxyd"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "srtd",
+    srcs: ["proprietary/vendor/bin/srtd"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "systemDebuggerd",
+    srcs: ["proprietary/vendor/bin/systemDebuggerd"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "thermald",
+    srcs: ["proprietary/vendor/bin/thermald"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "tsupplicant",
+    srcs: ["proprietary/vendor/bin/tsupplicant"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vdspserver",
+    srcs: ["proprietary/vendor/bin/vdspserver"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "xrpclient",
+    srcs: ["proprietary/vendor/bin/xrpclient"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "yloglite",
+    srcs: ["proprietary/vendor/bin/yloglite"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "yloglitectl",
+    srcs: ["proprietary/vendor/bin/yloglitectl"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "yloglitekat",
+    srcs: ["proprietary/vendor/bin/yloglitekat"],
+    installable: true,
+    vendor: true,
+}
