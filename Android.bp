@@ -2426,6 +2426,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 
