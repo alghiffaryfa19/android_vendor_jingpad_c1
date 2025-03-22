@@ -18,7 +18,6 @@ DEVICE_MANIFEST_FILE += \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.power.stats@1.0-service-mock.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml \
-    vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_biometrics.fingerprint.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_face.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_singlesim.xml \
     vendor/jingpad/jade/proprietary/vendor/etc/vintf/manifest/manifest_soter.xml \
