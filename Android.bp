@@ -2411,6 +2411,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/bin/hw/wpa_supplicant"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2418,6 +2419,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/bin/hw/hostapd"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
