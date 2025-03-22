@@ -2484,6 +2484,7 @@ cc_prebuilt_binary {
     srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.0-service"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 
