@@ -2415,15 +2415,319 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.media.omx",
+    name: "android.hardware.media.omx@1.0-service",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service"],
     installable: true,
     vendor: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.vibrator",
+    name: "android.hardware.vibrator@1.0-service",
     srcs: ["proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.audio@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.audio@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.biometrics.fingerprint@2.1-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.bluetooth.audio@2.0-service.unisoc",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth.audio@2.0-service.unisoc"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.bluetooth@1.0-service.unisoc",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service.unisoc"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.camera.provider@2.4-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.cas@1.1-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.cas@1.1-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.configstore@1.1-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.drm@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.drm@1.2-service.clearkey",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.gatekeeper@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.graphics.allocator@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.graphics.composer@2.1-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.health@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.health@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.keymaster@4.0-unisoc.service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-unisoc.service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.light@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.light@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.memtrack@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.neuralnetworks@1.2-service-img-nn-hw",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-img-nn-hw"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.power.stats@1.0-service.mock",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.power.stats@1.0-service.mock"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.sensors@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.thermal@2.0-service.mock",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mock"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.usb@1.1-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.usb@1.1-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "android.hardware.wifi@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "cnn_testbench",
+    srcs: ["proprietary/vendor/bin/hw/cnn_testbench"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "urild",
+    srcs: ["proprietary/vendor/bin/hw/urild"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.aprd@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.aprd@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.broadcastradio@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.connmgr@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.connmgr@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.cplog_connmgr@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.cplog_connmgr@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.enhance@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.enhance@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.face@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.face@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.fingerprintmmi@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.fingerprintmmi@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.gnss@2.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.gnss@2.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.ifaa@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.ifaa@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.log@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.log@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.network@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.network@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.power@4.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.power@4.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.soter@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.soter@1.0-service"],
+    installable: true,
+    vendor: true,
+}
+
+
+cc_prebuilt_binary {
+    name: "vendor.sprd.hardware.thermal@1.0-service",
+    srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service"],
     installable: true,
     vendor: true,
 }

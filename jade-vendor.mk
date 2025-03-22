@@ -34,44 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/jingpad/jade/proprietary/vendor/bin/factorytest:$(TARGET_COPY_OUT_VENDOR)/bin/factorytest \
     vendor/jingpad/jade/proprietary/vendor/bin/flush_slog_modem:$(TARGET_COPY_OUT_VENDOR)/bin/flush_slog_modem \
     vendor/jingpad/jade/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.bluetooth.audio@2.0-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth.audio@2.0-service.unisoc \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service.unisoc \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.cas@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.clearkey \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-unisoc.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-unisoc.service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-img-nn-hw:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-img-nn-hw \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.power.stats@1.0-service.mock:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.stats@1.0-service.mock \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mock:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mock \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/cnn_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/hw/cnn_testbench \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/urild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/urild \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.aprd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.aprd@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.connmgr@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.connmgr@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.cplog_connmgr@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.cplog_connmgr@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.enhance@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.enhance@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.face@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.fingerprintmmi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.fingerprintmmi@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.gnss@2.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.ifaa@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.ifaa@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.log@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.log@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.network@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.network@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.power@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.power@4.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.soter@1.0-service \
-    vendor/jingpad/jade/proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.thermal@1.0-service \
     vendor/jingpad/jade/proprietary/vendor/bin/iqfeed:$(TARGET_COPY_OUT_VENDOR)/bin/iqfeed \
     vendor/jingpad/jade/proprietary/vendor/bin/iwnpi:$(TARGET_COPY_OUT_VENDOR)/bin/iwnpi \
     vendor/jingpad/jade/proprietary/vendor/bin/mlogservice:$(TARGET_COPY_OUT_VENDOR)/bin/mlogservice \
