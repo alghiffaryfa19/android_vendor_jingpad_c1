@@ -2419,6 +2419,7 @@ cc_prebuilt_library_shared {
     srcs: ["proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service"],
     installable: true,
     vendor: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
